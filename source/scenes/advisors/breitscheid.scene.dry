@@ -65,7 +65,7 @@ The date went well! After a torrid night with Breitscheid in a Reichswhehr unifo
 
 @seduce_wirth
 subtitle: seducing Wirth will strenghen our relations with [? if z_party_name != "CVP": <span style="color: #000000;">Center</span> Party?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?]
-on-arrival: z_relation += 25; wirth_spd if homosexual_rights>=2; center_dissent-= 10  if homosexual_rights>= 2; left_dissent-= 5  if homosexual_rights>=2; labor_dissent-= 5  if homosexual_rights>=2; reformist_dissent-= 5  if homosexual_rights>=2
+on-arrival: z_relation += 25; wirth_spd=1 if homosexual_rights>=2; center_dissent-= 10  if homosexual_rights>= 2; left_dissent-= 5  if homosexual_rights>=2; labor_dissent-= 5  if homosexual_rights>=2; reformist_dissent-= 5  if homosexual_rights>=2
 
 The date went well! Our relations with the [? if z_party_name != "CVP": <span style="color: #000000;">Center</span> Party?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] have greatly improved.
 

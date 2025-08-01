@@ -105,7 +105,7 @@ Q.communist_coalition = 0;
 // 1 - WTB plan, 2 - AfA-bund plan, 3 - radical plan (mass nationalization of industries)
 Q.economic_plan = 0;
 // have we officially adopted the WTB plan?
-Q.wtb_adopted = 1;
+Q.wtb_adopted = 0;
 // have we formed the iron front?
 Q.iron_front_formed = 0;
 // people's party support
@@ -919,7 +919,7 @@ Q.bruning_coalition_dissent = 0;
 Q.dnvp_angry = 0;
 Q.dvp_exist = 1;
 Q.reichsbanner_unpopularity_time = 0;
-Q.wtb_points = 150;
+Q.wtb_points = 0;
 Q.hindenburg_grr_time = 0;
 Q.hindenburg_angry_pause_time = 0;
 Q.reichsbank_policy_time = 0;
@@ -1048,7 +1048,7 @@ Q.wirth_advisor = 0; // troll
 
 // Nonfactional advisors
 Q.hirschfeld_advisor = 0; // Magnus Hirschfeld
-Q.radbruch_advisor = 1; // Gustav Radbruch
+Q.radbruch_advisor = 0; // Gustav Radbruch
 Q.stampfer_advisor = 0; // Friedrich Stampfer
 
 if (Q.achievement_schwarz_rot_gold) {

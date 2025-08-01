@@ -105,7 +105,7 @@ Q.communist_coalition = 0;
 // 1 - WTB plan, 2 - AfA-bund plan, 3 - radical plan (mass nationalization of industries)
 Q.economic_plan = 0;
 // have we officially adopted the WTB plan?
-Q.wtb_adopted = 0;
+Q.wtb_adopted = 1;
 // have we formed the iron front?
 Q.iron_front_formed = 0;
 // people's party support

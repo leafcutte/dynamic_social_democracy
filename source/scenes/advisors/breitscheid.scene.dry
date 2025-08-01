@@ -67,7 +67,7 @@ The date went well! After a torrid night with Breitscheid in a Reichswhehr unifo
 subtitle: seducing Wirth will strenghen our relations with the Center Party
 on-arrival: z_relation += 25; center_dissent-= 10  if homosexual_rights>= 2; left_dissent-= 5  if homosexual_rights>=2; labor_dissent-= 5  if homosexual_rights>=2; reformist_dissent-= 5  if homosexual_rights>=2
 
-The date went well! Our relations with the Center Party have greatly improved. [? if homosexual_rights>=2 : [Moreover, thanks to our tolerant policies, Breitscheid felt safe enough to invite the members of the party to meet his new boyfriend. They were all positively impressed by how kind and charismatic Wirth was, reducing dissent in our parties over Breitscheid's lifestyle.?]
+The date went well! Our relations with the Center Party have greatly improved. [? if homosexual_rights>=2 : [Moreover, thanks to our progressive attitude towards <span style="color: red;">Ho</span><span style="color: orange;">mo</span><span style="color: yellow;">se</span><span style="color: green;">xu</span><span style="color: blue;">al</span><span style="color: purple;">ity</span>, Breitscheid felt safe enough to invite the members of the party to meet his new boyfriend. They were all positively impressed by how kind and charismatic Wirth was, reducing dissent in our parties over Breitscheid's lifestyle.?]
 
 @seduce_stalin
 subtitle: seducing Stalin could help our relation with the KPD

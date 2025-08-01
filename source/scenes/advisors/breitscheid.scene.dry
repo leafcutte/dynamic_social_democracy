@@ -73,7 +73,7 @@ The date went well! Our relations with the [? if z_party_name != "CVP": <span st
 subtitle: seducing Stalin could help our relation with the KPD
 on-arrival: kpd_relation += 20; soviet_relation += 5
 
-The date went well! This relationship will greatly help our relationsw with the Soviet Union, and in turn with the KPD.
+The date went well! This relationship will greatly help our relationsw with the  <span style="color: #940000;">**Soviet Union**</span, and in turn with the  <span style="color: #700000;">**KPD**</span.
 
 @snap_election
 title: Snap Election

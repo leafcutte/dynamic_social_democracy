@@ -12,6 +12,7 @@ Breitscheid is a long-time <span style="color: #c00000;">**SPD**</span> leader, 
 - @breitscheid_international
 - @breitscheid_foreign
 - @party_discipline
+- @seduction
 - @snap_election
 - @root: Return to main
 
@@ -41,6 +42,13 @@ on-arrival: advisor_action_timer = 6; left_dissent -= 5; labor_dissent -= 10; ce
 
 We have enforced party discipline to reduce dissent across all factions.
 
+@seduction
+title: High-Profile Seduction
+subtitle: Breitscheid is one of our most handsome members, perhaps he can seduce important personalities.
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+choose-if: advisor_action_timer == 0
+on-arrival: advisor_action_timer = 6; last_advisor_action = 1
+go-to: international_relations
 
 @snap_election
 title: Snap Election

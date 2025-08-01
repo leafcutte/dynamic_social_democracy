@@ -51,9 +51,9 @@ on-arrival: advisor_action_timer = 6; last_advisor_action = 1; homosexual_rights
 
 With whom should Breitscheid go on a date?
 
- - @seduce_hindenburg
- - @seduce_wirth
- - @seduce_stalin
+- @seduce_hindenburg: Seduce Hindenburg
+- @seduce_wirth: Seduce Wirth
+- @seduce_stalin: Seduce Stalin
 
 @seduce_hindenburg
 title: Seduce Hindenburg

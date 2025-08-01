@@ -919,7 +919,7 @@ Q.bruning_coalition_dissent = 0;
 Q.dnvp_angry = 0;
 Q.dvp_exist = 1;
 Q.reichsbanner_unpopularity_time = 0;
-Q.wtb_points = 0;
+Q.wtb_points = 150;
 Q.hindenburg_grr_time = 0;
 Q.hindenburg_angry_pause_time = 0;
 Q.reichsbank_policy_time = 0;
@@ -1014,7 +1014,7 @@ Q.muller_advisor = 1; // Hermann Müller
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.woytinsky_advisor = 1; // Rudolf Hilferding
 
 // left advisors
 Q.sender_advisor = 0; // Toni Sender

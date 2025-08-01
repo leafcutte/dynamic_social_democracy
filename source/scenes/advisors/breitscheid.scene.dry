@@ -47,7 +47,7 @@ title: High-Profile Seduction
 subtitle: Breitscheid is one of our most handsome members, perhaps he can seduce important personalities.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 choose-if: advisor_action_timer == 0
-on-arrival: advisor_action_timer = 6; last_advisor_action = 1; homosexual_rights+=1
+on-arrival: advisor_action_timer = 6; last_advisor_action = 1; 
 
 With whom should Breitscheid go on a date?
 
@@ -65,13 +65,13 @@ The date went well! After a torrid night with Breitscheid in a Reichswhehr unifo
 
 @seduce_wirth
 subtitle: seducing Wirth will strenghen our relations with the Center Party
-on-arrival: z_relations += 25; center_dissent-= 10  if homosexual_rights>= 2; left_dissent-= 5  if homosexual_rights>=2; labor_dissent-= 5  if homosexual_rights>=2; reformist_dissent-= 5  if homosexual_rights>=2
+on-arrival: z_relation += 25; center_dissent-= 10  if homosexual_rights>= 2; left_dissent-= 5  if homosexual_rights>=2; labor_dissent-= 5  if homosexual_rights>=2; reformist_dissent-= 5  if homosexual_rights>=2
 
 The date went well! Our relations with the Center Party have greatly improved. [? if homosexual_rights>=2 : [Moreover, thanks to our tolerant policies, Breitscheid felt safe enough to invite the members of the party to meet his new boyfriend. They were all positively impressed by how kind and charismatic Wirth was, reducing dissent in our parties over Breitscheid's lifestyle.?]
 
 @seduce_stalin
 subtitle: seducing Stalin could help our relation with the KPD
-on-arrival: kpd_relations += 20; soviet_relations += 5
+on-arrival: kpd_relation += 20; soviet_relation += 5
 
 The date went well! This relationship will greatly help our relationsw with the Soviet Union, and in turn with the KPD.
 

@@ -1024,19 +1024,19 @@ Q.rosenfeld_advisor = 0; // Kurt Rosenfeld
 Q.seydewitz_advisor = 0; // Max Seydewitz
 
 // centrist alternate advisors
-Q.pfulf_advisor = 1; // Antonie Pfülf
+Q.pfulf_advisor = 0; // Antonie Pfülf
 Q.breitscheid_advisor = 1; // Rudolf Breitscheid
 
 // Reformist advisors
 Q.severing_advisor = 0; // Carl Severing
-Q.braun_advisor = 1; // Otto Braun
-Q.juchacz_advisor = 1; // Marie Juchacz
+Q.braun_advisor = 0; // Otto Braun
+Q.juchacz_advisor = 0; // Marie Juchacz
 Q.baade_advisor = 0; // Fritz Baade
 
 // Labor advisors
 Q.leipart_advisor = 0; // Theodor Leipart
 Q.aufhauser_advisor = 0; // Siegfried Aufhäuser
-Q.woytinsky_advisor = 1; // Wladimir Woytinsky (post-1930)
+Q.woytinsky_advisor = 0; // Wladimir Woytinsky (post-1930)
 Q.wissell_advisor = 0; // Rudolf Wissell
 
 // Revisionist advisors
